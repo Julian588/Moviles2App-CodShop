@@ -13,7 +13,16 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
-            android:name=".Store"
+            android:name=".ConsultaMovimientos"
+            android:exported="false" />
+        <activity
+            android:name=".IngresarAhorro"
+            android:exported="false" />
+        <activity
+            android:name=".IngresarGasto"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
             android:exported="false" />
         <activity
             android:name=".InicioSesion"
